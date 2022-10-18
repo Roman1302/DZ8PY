@@ -6,8 +6,9 @@ def data_entry():
     name = input('Введите имя ученика: ')
     family = input('Введите фамилию ученика: ')
     birthdate = input('Введите дату рождения ученика: ')
+    classroom = input('Введите класс ученика: ')
     achievement = input('Введите успеваемость ученика: ')
-    print(f'Вы ввели данные: {name} {family} {birthdate} {achievement}\n')
+    print(f'Вы ввели данные: {name} {family} {birthdate} {classroom} {achievement}\n')
 # print(len(open('student_info.json').readlines()))
 
     stud_card = {
@@ -15,6 +16,7 @@ def data_entry():
         'Имя' : [name],
         'Фамилия': [family],
         'Дата рождения' : [birthdate],
+        'Класс' :[classroom],
         'Успеваемость' : [achievement]
         }
     with open('student_info.json', 'a') as data:
