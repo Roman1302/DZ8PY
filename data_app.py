@@ -1,13 +1,30 @@
-
+import datetime
 
 def data_entry():
     # Функция приглашает пользователя внести данных учеников и сохранить их в файл
     print('Журнал заполнения\n')
     name = input('Введите имя ученика: ')
     family = input('Введите фамилию ученика: ')
-    birthdate = input('Введите дату рождения ученика: ')
+    while True:
+        try:
+            birthdate = input('Введите дату рождения ученика в форме ДД.ММ.ГГГГ: ')
+            if datetime.datetime.strptime(birthdate, '%d.%m.%Y'):
+                break
+            else:
+                print("Неправильный формат данных, должен быть ДД.ММ.ГГГГ")
+        except:
+            print("Ошибка - это не дата")
     classroom = input('Введите класс ученика: ')
     achievement = input('Введите успеваемость ученика: ')
+#     while True:
+#         try:
+            
+#             if strptime(birthdate, 'отличник', 'хорошист', 'троичник', 'неуспевающий'):
+#                 break
+#             else:
+#                 print("Неправильное значение, может быть: 'отличник', 'хорошист', 'троичник', 'неуспевающий'")
+#         except:
+#             print("Ошибка - повторите ввод")
     print(f'Вы ввели данные: {name} {family} {birthdate} {classroom} {achievement}\n')
 # print(len(open('student_info.json').readlines()))
 
