@@ -1,6 +1,6 @@
 
 
-def insert_numbers():
+def data_entry():
     # Функция приглашает пользователя внести данных учеников и сохранить их в файл
     print('Журнал заполнения\n')
     name = input('Введите имя ученика: ')
@@ -21,4 +21,4 @@ def insert_numbers():
         data.write(f'{stud_card}\n')
 #     print(f'Вы ввели данные: {stud_card}\n' )
     data.close()
-insert_numbers()
+data_entry()
