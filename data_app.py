@@ -16,17 +16,8 @@ def data_entry():
             print("Ошибка - это не дата")
     classroom = input('Введите класс ученика: ')
     achievement = input('Введите успеваемость ученика: ')
-#     while True: # должно запускать проверку правильности ввода успеваемости
-#         try:
-            
-#             if strptime(birthdate, 'отличник', 'хорошист', 'троичник', 'неуспевающий'):
-#                 break
-#             else:
-#                 print("Неправильное значение, может быть: 'отличник', 'хорошист', 'троичник', 'неуспевающий'")
-#         except:
-#             print("Ошибка - повторите ввод")
+
     print(f'Вы ввели данные: {name} {family} {birthdate} {classroom} {achievement}\n')
-# print(len(open('student_info.json').readlines()))
 
     stud_card = {
         'ID': [len(open('student_info.json').readlines())],
@@ -38,6 +29,6 @@ def data_entry():
         }
     with open('student_info.json', 'a') as data:
         data.write(f'{stud_card}\n')
-#     print(f'Вы ввели данные: {stud_card}\n' )
+
     data.close()
 data_entry()
