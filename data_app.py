@@ -31,4 +31,16 @@ def data_entry():
         data.write(f'{stud_card}\n')
 
     data.close()
-data_entry()
+
+def repeat_or_no():
+    # Функция для запроса пользователя продолжить или нет
+    user_choice = 'Выбор'
+    while user_choice != 'Y' or user_choice != 'N':
+        user_choice = input('Вы хотите продолжить ввод данных? (Y или N): ')
+        if user_choice == 'N':
+            return False
+        elif user_choice == 'Y':
+            return True
+        else:
+            print('Неверный ответ! Вы хотите продолжить работу? Вставить Y или N: ')
+
