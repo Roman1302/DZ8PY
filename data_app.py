@@ -5,7 +5,7 @@ def data_entry():
     print('Журнал заполнения\n')
     name = input('Введите имя ученика: ')
     family = input('Введите фамилию ученика: ')
-    while True:
+    while True: #запускает проверку правильной даты
         try:
             birthdate = input('Введите дату рождения ученика в форме ДД.ММ.ГГГГ: ')
             if datetime.datetime.strptime(birthdate, '%d.%m.%Y'):
@@ -16,7 +16,7 @@ def data_entry():
             print("Ошибка - это не дата")
     classroom = input('Введите класс ученика: ')
     achievement = input('Введите успеваемость ученика: ')
-#     while True:
+#     while True: # должно запускать проверку правильности ввода успеваемости
 #         try:
             
 #             if strptime(birthdate, 'отличник', 'хорошист', 'троичник', 'неуспевающий'):
