@@ -1,13 +1,6 @@
 {
   "stud_card": [
     {
-      "name": "name",
-      "family": "family",
-      "birthdate": "birthdate",
-      "classroom": "classroom",
-      "achievement": "achievement"
-    },
-    {
       "name": "Игорь",
       "family": "Мацук",
       "birthdate": "09.02.1982",
