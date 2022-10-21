@@ -1,7 +1,5 @@
 from pprint import pprint
-import jmespath
 import json
-import datetime
 
 
 def print_choice():  #выбор данных для вывода
@@ -14,7 +12,7 @@ def print_choice():  #выбор данных для вывода
     choic = input ('Ваш выбор: ')
     return choic
 
-"""def print_one_student(): # печать одного ученика
+def print_one_student(): # печать одного ученика
     fam=input('Введите фамилию ученика: ')
     # print(fam)
     with open("student_info.json", "r", encoding="utf-8") as f:
@@ -24,13 +22,13 @@ def print_choice():  #выбор данных для вывода
         # print(tex["family"])
         if fam == tex["family"]:
             print(f'{tex["name"]} {tex["family"]}, {tex["birthdate"]},\
-             класс:{tex["classroom"]}, {tex["achievement"]}')
+класс:{tex["classroom"]}, {tex["achievement"]}')
         # print(text["stud_card"][0]["Имя"])
 
     f.close()
 
 def print_students_class(): # печать списка из класса
-    clas=input('Введите класс: ')
+    clas=input('Введите класс (с 1 по 11): ')
     with open("student_info.json", "r", encoding="utf-8") as f:
         text = json.load(f)
         # pprint(text)
@@ -39,7 +37,7 @@ def print_students_class(): # печать списка из класса
         if clas == tex["classroom"]:
             print(f'{tex["name"]} {tex["family"]}, {tex["birthdate"]}, \
 класс:{tex["classroom"]}, {tex["achievement"]}')
-    f.close()"""
+    f.close()
 
 def print_students_years(): # печать списка по году рождания
     year=int(input('Введите год рождения: '))
@@ -53,6 +51,26 @@ def print_students_years(): # печать списка по году рожда
 класс:{tex["classroom"]}, {tex["achievement"]}')
     f.close()
 
+def print_students_achievement(): # печать по успеваемости
+    achiev=input('Введите успеваемость(отличник, хорошист, троичник, неуспевающий): ')
+    with open("student_info.json", "r", encoding="utf-8") as f:
+        text = json.load(f)
+    for tex in text["stud_card"]:
+        if achiev == tex["achievement"]:
+            print(f'{tex["name"]} {tex["family"]}, {tex["birthdate"]},\
+класс:{tex["classroom"]}, {tex["achievement"]}')
+    f.close()
+    
+def print_everyone_students(): # печать всего списка
+    print('Общий список: ')
+    with open("student_info.json", "r", encoding="utf-8") as f:
+        text = json.load(f)
+    for tex in text["stud_card"]:
+        print(f'{tex["name"]:<10}{tex["family"]:<15}\
+        {tex["birthdate"]:>5}  класс: {tex["classroom"]:<3}{tex["achievement"]:>12}\n', "-"*70)
+        # print(f'{tex["name"]} {tex["family"]}, {tex["birthdate"]},\
+# класс:{tex["classroom"]}, {tex["achievement"]}')
+    f.close()
 
 def choice(choic):  #определение функции печати
     if choic =="1":
@@ -61,20 +79,10 @@ def choice(choic):  #определение функции печати
         print_students_class()
     elif choic =="3":
         print_students_years()
-    # elif choic ==4:
-    #     print_students_achievement()
-    # else:
-    #     print_everyone_students()
-
-
-
-
-
-# def print_students_years():
-
-# def print_students_achievement():
-
-# def print_everyone_students():
+    elif choic =="4":
+        print_students_achievement()
+    else:
+        print_everyone_students()
 
 
 
@@ -90,4 +98,3 @@ def repeat_or_no():
         else:
             print('Неверный ответ! Вы хотите продолжить работу? Вставить Y или N: ')
 
-choice(print_choice())
