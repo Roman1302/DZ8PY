@@ -1,51 +1,67 @@
-[
-  {
-    "name": "name",
-    "family": "family",
-    "birthdate": "birthdate",
-    "classroom": "classroom",
-    "achievement": "achievement"
-  },
-  {
-    "name": "Игорь",
-    "family": "Мацук",
-    "birthdate": "09.02.1982",
-    "classroom": "2",
-    "achievement": "хорошист"
-  },
-  {
-    "name": "Роман",
-    "family": "Бухмистов",
-    "birthdate": "13.02.1980",
-    "classroom": "1",
-    "achievement": "отличник"
-  },
-  {
-    "name": "Жанна",
-    "family": "Петр",
-    "birthdate": "16.12.1978",
-    "classroom": "2",
-    "achievement": "троичник"
-  },
-  {
-    "name": "Алексей",
-    "family": "Попов",
-    "birthdate": "17.09.1984",
-    "classroom": "2",
-    "achievement": "неуспевающий"
-  },
-  {
-    "name": "Алексей",
-    "family": "Лосев",
-    "birthdate": "15.06.1986",
-    "classroom": "1",
-    "achievement": "отличник"
-  },
-  {
-    "name": "Сергей",
-    "family": "Кияшко",
-    "birthdate": "16.03.2000",
-    "classroom": "3",
-    "achievement": "отличник"
-  }
-]
+{
+  "stud_card": [
+    {
+      "name": "name",
+      "family": "family",
+      "birthdate": "birthdate",
+      "classroom": "classroom",
+      "achievement": "achievement"
+    },
+    {
+      "name": "Игорь",
+      "family": "Мацук",
+      "birthdate": "09.02.1982",
+      "classroom": "2",
+      "achievement": "хорошист"
+    },
+    {
+      "name": "Роман",
+      "family": "Бухмистов",
+      "birthdate": "13.02.1980",
+      "classroom": "1",
+      "achievement": "отличник"
+    },
+    {
+      "name": "Жанна",
+      "family": "Петр",
+      "birthdate": "16.12.1978",
+      "classroom": "2",
+      "achievement": "троичник"
+    },
+    {
+      "name": "Алексей",
+      "family": "Попов",
+      "birthdate": "17.09.1984",
+      "classroom": "2",
+      "achievement": "неуспевающий"
+    },
+    {
+      "name": "Алексей",
+      "family": "Лосев",
+      "birthdate": "15.06.1986",
+      "classroom": "1",
+      "achievement": "отличник"
+    },
+    {
+      "name": "Сергей",
+      "family": "Кияшко",
+      "birthdate": "16.03.2000",
+      "classroom": "3",
+      "achievement": "отличник"
+    },
+    {
+      "name": "Елена",
+      "family": "Пономаренко",
+      "birthdate": "12.12.2000",
+      "classroom": "5",
+      "achievement": "отличник"
+    },
+    {
+      "name": "Анна",
+      "family": "Колесова",
+      "birthdate": "03.03.1964",
+      "classroom": "6",
+      "achievement": "хорошист"
+    }
+  ]
+}
