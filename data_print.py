@@ -86,4 +86,3 @@ def repeat_or_no():
             dp.choice(dp.print_choice())
         else:
             print('Неверный ответ! Вы хотите продолжить работу с базой? Вставить Y или N: ')
-
