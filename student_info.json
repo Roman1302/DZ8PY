@@ -1,0 +1,333 @@
+{
+  "stud_card": [
+    {
+      "name": "Игорь",
+      "family": "Мацук",
+      "birthdate": "09.02.1982",
+      "classroom": "2",
+      "achievement": "хорошист"
+    },
+    {
+      "name": "Роман",
+      "family": "Бухмистов",
+      "birthdate": "13.02.1980",
+      "classroom": "1",
+      "achievement": "отличник"
+    },
+    {
+      "name": "Жанна",
+      "family": "Петр",
+      "birthdate": "16.12.1978",
+      "classroom": "2",
+      "achievement": "троичник"
+    },
+    {
+      "name": "Алексей",
+      "family": "Попов",
+      "birthdate": "17.09.1984",
+      "classroom": "2",
+      "achievement": "неуспевающий"
+    },
+    {
+      "name": "Алексей",
+      "family": "Лосев",
+      "birthdate": "15.06.1986",
+      "classroom": "1",
+      "achievement": "отличник"
+    },
+    {
+      "name": "Сергей",
+      "family": "Кияшко",
+      "birthdate": "16.03.2000",
+      "classroom": "3",
+      "achievement": "отличник"
+    },
+    {
+      "name": "Елена",
+      "family": "Пономаренко",
+      "birthdate": "12.12.2000",
+      "classroom": "5",
+      "achievement": "отличник"
+    },
+    {
+      "name": "Анна",
+      "family": "Колесова",
+      "birthdate": "03.03.1964",
+      "classroom": "6",
+      "achievement": "хорошист"
+    },
+    {
+      "name": "Иван",
+      "family": "Иванов",
+      "birthdate": "12.12.2012",
+      "classroom": "5",
+      "achievement": "отличник"
+    },
+    {
+      "name": "Мария",
+      "family": "Трошева",
+      "birthdate": "15.10.2020",
+      "classroom": "1",
+      "achievement": "отличник"
+    },
+    {
+      "name": "Павел",
+      "family": "Петров",
+      "birthdate": "14.10.1950",
+      "classroom": "10",
+      "achievement": "хорошист"
+    },
+    {
+      "name": "Гриша",
+      "family": "Леонов",
+      "birthdate": "19.6.1985",
+      "classroom": "8",
+      "achievement": "неуспевающий"
+    },
+    {
+      "name": "Миша",
+      "family": "Михайлов",
+      "birthdate": "1.1.1990",
+      "classroom": "5",
+      "achievement": "троичник"
+    },
+    {
+      "name": "Роман",
+      "family": "Романов",
+      "birthdate": "13.02.1999",
+      "classroom": "9",
+      "achievement": "отличник"
+    },
+    {
+      "name": "Юрий",
+      "family": "Юревич",
+      "birthdate": "10.10.2020",
+      "classroom": "3",
+      "achievement": "хорошист"
+    },
+    {
+      "name": "Петр",
+      "family": "Петров",
+      "birthdate": "16.5.2005",
+      "classroom": "6",
+      "achievement": "хорошист"
+    },
+    {
+      "name": "Ирина",
+      "family": "Колесникова",
+      "birthdate": "30.12.1999",
+      "classroom": "8",
+      "achievement": "хорошист"
+    },
+    {
+      "name": "Светлана",
+      "family": "Горшустер",
+      "birthdate": "16.06.1998",
+      "classroom": "6",
+      "achievement": "троичник"
+    },
+    {
+      "name": "Гопторев",
+      "family": "Иван",
+      "birthdate": "15.06.1997",
+      "classroom": "7",
+      "achievement": "троичник"
+    },
+    {
+      "name": "Анна",
+      "family": "Артющик",
+      "birthdate": "29.03.1980",
+      "classroom": "11",
+      "achievement": ""
+    },
+    {
+      "name": "Николай",
+      "family": "Полищук",
+      "birthdate": "12.09.2009",
+      "classroom": "6",
+      "achievement": "троичник"
+    },
+    {
+      "name": "Александр",
+      "family": "Кондрашенков",
+      "birthdate": "18.05.2005",
+      "classroom": "8",
+      "achievement": "троичник"
+    },
+    {
+      "name": "Роман",
+      "family": "Минаков",
+      "birthdate": "31.12.2000",
+      "classroom": "7",
+      "achievement": "троичник"
+    },
+    {
+      "name": "Сергей",
+      "family": "Махов",
+      "birthdate": "15.11.2001",
+      "classroom": "6",
+      "achievement": "троичник"
+    },
+    {
+      "name": "Мария",
+      "family": "Молочникова",
+      "birthdate": "19.7.2007",
+      "classroom": "1",
+      "achievement": "неуспевающий"
+    },
+    {
+      "name": "Иван",
+      "family": "Сокерин",
+      "birthdate": "6.6.2006",
+      "classroom": "5",
+      "achievement": "троичник"
+    },
+    {
+      "name": "Алексей",
+      "family": "Балицкий",
+      "birthdate": "17.07.2007",
+      "classroom": "4",
+      "achievement": "хорошист"
+    },
+    {
+      "name": "Владимир",
+      "family": "Выговский",
+      "birthdate": "09.08.2008",
+      "classroom": "2",
+      "achievement": "хорошист"
+    },
+    {
+      "name": "Мария",
+      "family": "Гриненко",
+      "birthdate": "07.03.2003",
+      "classroom": "1",
+      "achievement": "отличник"
+    },
+    {
+      "name": "Наталья",
+      "family": "Демидова",
+      "birthdate": "28.03.2003",
+      "classroom": "1",
+      "achievement": "отличник"
+    },
+    {
+      "name": "Николай",
+      "family": "Нимеровский",
+      "birthdate": "08.08.2008",
+      "classroom": "9",
+      "achievement": "троичник"
+    },
+    {
+      "name": "Олеся",
+      "family": "Канева",
+      "birthdate": "16.04.2004",
+      "classroom": "8",
+      "achievement": "отличник"
+    },
+    {
+      "name": "Нина",
+      "family": "Лапшова",
+      "birthdate": "07.07.2007",
+      "classroom": "7",
+      "achievement": "отличник"
+    },
+    {
+      "name": "Мария",
+      "family": "Прохорова",
+      "birthdate": "09.09.2009",
+      "classroom": "6",
+      "achievement": "троичник"
+    },
+    {
+      "name": "Ольга",
+      "family": "Осипова",
+      "birthdate": "12.12.2012",
+      "classroom": "5",
+      "achievement": "хорошист"
+    },
+    {
+      "name": "Андрей",
+      "family": "Подоров",
+      "birthdate": "06.06.2006",
+      "classroom": "4",
+      "achievement": "хорошист"
+    },
+    {
+      "name": "Александр",
+      "family": "Раков",
+      "birthdate": "27.03.2003",
+      "classroom": "3",
+      "achievement": "хорошист"
+    },
+    {
+      "name": "Людмила",
+      "family": "Рыбакова",
+      "birthdate": "08.08.2008",
+      "classroom": "4",
+      "achievement": "хорошист"
+    },
+    {
+      "name": "Ольга",
+      "family": "Стрепкова",
+      "birthdate": "12.11.2011",
+      "classroom": "4",
+      "achievement": "хорошист"
+    },
+    {
+      "name": "Татьяна",
+      "family": "Фролова",
+      "birthdate": "13.10.2010",
+      "classroom": "3",
+      "achievement": "троичник"
+    },
+    {
+      "name": "Як",
+      "family": "Титов",
+      "birthdate": "19.4.2004",
+      "classroom": "3",
+      "achievement": "неуспевающий"
+    },
+    {
+      "name": "Татьяна",
+      "family": "Андреева",
+      "birthdate": "17.03.2003",
+      "classroom": "1",
+      "achievement": "отличник"
+    },
+    {
+      "name": "Сергей",
+      "family": "Белов",
+      "birthdate": "04.12.2002",
+      "classroom": "4",
+      "achievement": "хорошист"
+    },
+    {
+      "name": "Наталья",
+      "family": "Суранова",
+      "birthdate": "16.12.2012",
+      "classroom": "11",
+      "achievement": "отличнис"
+    },
+    {
+      "name": "Яна",
+      "family": "Жданова",
+      "birthdate": "24.08.1981",
+      "classroom": "11",
+      "achievement": "хорошист"
+    },
+    {
+      "name": "Алла",
+      "family": "Петрова",
+      "birthdate": "07.03.1981",
+      "classroom": "11",
+      "achievement": "отличник"
+    },
+    {
+      "name": "Ирина",
+      "family": "Карманова",
+      "birthdate": "18.01.1981",
+      "classroom": "11",
+      "achievement": "Хорошист"
+    }
+  ]
+}
