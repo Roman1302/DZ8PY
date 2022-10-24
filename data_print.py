@@ -1,10 +1,11 @@
 from pprint import pprint
 import json
+import data_print as dp
 
 
 def print_choice():  #выбор данных для вывода
     print("Выберите, что вы хотите вывести?\n\
-        1 - данные ID ученика,\n\
+        1 - данные ученика,\n\
         2 - список учеников одного класса,\n\
         3 - учеников по году рождения,\n\
         4 - учеников по успеваемости,\n\
@@ -84,17 +85,15 @@ def choice(choic):  #определение функции печати
     else:
         print_everyone_students()
 
-
-
 def repeat_or_no():
     # Функция для запроса пользователя продолжить или нет
-    user_choice = 'Выбор'
+    user_choice = 'Плохой ответ'
     while user_choice != 'Y' or user_choice != 'N':
-        user_choice = input('Вы хотите продолжить ввод данных? (Y или N): ')
+        user_choice = input('Вы хотите продолжить работу с базой учеников? (Y или N): ')
         if user_choice == 'N':
             return False
         elif user_choice == 'Y':
-            return True
+            dp.choice(dp.print_choice())
         else:
-            print('Неверный ответ! Вы хотите продолжить работу? Вставить Y или N: ')
+            print('Неверный ответ! Вы хотите продолжить работу с базой? Вставить Y или N: ')
 
